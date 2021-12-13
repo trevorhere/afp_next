@@ -23,7 +23,7 @@ export default function FS3D_Offering({title, description, images, bullets }) {
         </div>
         <div className="grid grid-cols-2 grid-rows-2 gap-4 sm:gap-6 lg:gap-8">
           {images.map((image) => (
-            <Image
+            <img
               key={image?.src}
               src={image.src}
               alt={image.alt}

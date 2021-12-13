@@ -84,19 +84,19 @@ export default function Home() {
           description='Immersive digital wildfire training using state of the art Virtual Reality hardware and software. '
           images={[
             {
-              src: 'images/gifs/fs3d_1gif.gif',
+              src: '/images/gifs/fs3d_1gif.gif',
               alt: 'pilot view'
             },
             {
-              src: 'images/gifs/fs3d_6gif.gif',
+              src: '/images/gifs/fs3d_6gif.gif',
               alt: 'pilot view'
             },
             {
-              src: 'images/gifs/fs3d_3gif.gif',
+              src: '/images/gifs/fs3d_3gif.gif',
               alt: 'pilot view'
             },
             {
-              src: 'images/gifs/fs3d_5gif.gif',
+              src: '/images/gifs/fs3d_5gif.gif',
               alt: 'pilot view'
             }
           ]}
@@ -124,27 +124,28 @@ export default function Home() {
         <LogoCloud
           logos={[
             {
-              "src": "images/orgs/usfs.png",
+              "src": "/images/orgs/usfs.png",
               "alt": "USFS",
             },
             {
-              "src": "images/orgs/calfire.png",
-              "alt": "CALFIRE",
-            },
-            {
-              "src": "images/orgs/NAFRI_1.png",
+              "src": "/images/orgs/NAFRI_1.png",
               "alt": "NAFRI",
             },
             {
-              "src": "images/orgs/nwcg_1.png",
+              "src": "/images/orgs/calfire.png",
+              "alt": "CALFIRE",
+            },
+            {
+              "src": "/images/orgs/OCFA_logo.png",
+              "alt": "OCFA",
+            },
+
+            {
+              "src": "/images/orgs/nwcg_1.png",
               "alt": "NWCG",
             },
             {
-              "src": "images/orgs/OCFA_logo.png",
-              "alt": "OCFA",
-            },
-            {
-              "src": "images/orgs/AFRL.png",
+              "src": "/images/orgs/AFRL.png",
               "alt": "AFRL",
             },
         ]}
@@ -153,7 +154,7 @@ export default function Home() {
         people={[{
           name: 'Joel Lane',
           role: 'Director, AFP',
-          imageUrl: 'images/joel/joel_7.png',
+          imageUrl: '/images/joel/joel_7.png',
           bio:
             'Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.',
           twitterUrl: '#',

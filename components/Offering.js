@@ -4,8 +4,8 @@ export default function Offering2({imageRight, imageSrc, title, description, bul
   return (
     <div className="bg-white">
       <section aria-labelledby="features-heading" className="relative  my-24">
-        <div className={`aspect-w-3 aspect-h-2 overflow-hidden sm:aspect-w-5 lg:aspect-none lg:absolute lg:w-1/2 lg:h-full  ${imageRight ? 'right-0 lg:pl-4 xl:pl-16 ' : 'lg:pr-4 xl:pr-16'}`}>
-          <Image
+        <div className={`w- aspect-w-3 aspect-h-2 overflow-hidden sm:aspect-w-5 lg:aspect-none lg:absolute lg:w-1/2 lg:h-full  ${imageRight ? 'right-0 lg:pl-4 xl:pl-16 ' : 'lg:pr-4 xl:pr-16'}`}>
+          <img
             src={imageSrc}
             alt="Black leather journal with silver steel disc binding resting on wooden shelf with machined steel pen."
             className="h-full w-full object-center object-cover lg:h-full lg:w-full"

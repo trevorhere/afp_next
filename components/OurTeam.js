@@ -20,7 +20,7 @@ export default function OurTeam({people}){
                 <li key={person.name}>
                   <div className="space-y-4">
                     <div className="aspect-w-3 aspect-h-2">
-                      <Image className="object-cover shadow-lg rounded-lg" src={person.imageUrl} alt="" />
+                      <Image width='50' height='50' className="object-cover shadow-lg rounded-lg" src={person.imageUrl} alt="" />
                     </div>
                     <div className="text-lg leading-6 font-medium space-y-1">
                       <h3>{person.name}</h3>
