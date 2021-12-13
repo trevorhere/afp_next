@@ -1,7 +1,7 @@
 export default function Divider(){
   return (
    <>
-    <div className="relative  w-1/2 h-0.5 ">
+    <div className="relative  w-1/2 h-0.5 mx-auto ">
       <div className="absolute inset-0 flex items-center" aria-hidden="true">
         <div className="w-full border-t bg-black mt-4" />
       </div>

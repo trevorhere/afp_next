@@ -56,7 +56,7 @@ export default function Home() {
         <Offering
           imageRight={false}
           imageSrc={'/images/classroom.png'}
-          title='Classroom'
+          title='Classroom Training'
           description='An engaging course curriculum taught by experts with decades of firefighter training and education experience. .'
           bullets={[
             {
@@ -80,6 +80,9 @@ export default function Home() {
         ></Offering>
         <Divider></Divider>
         <FS3D_Offering 
+          video={null}
+          bgLight={true}
+          showButton={true}
           title='FS3D Virtual Reality Simulations '
           description='Immersive digital wildfire training using state of the art Virtual Reality hardware and software. '
           images={[
