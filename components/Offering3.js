@@ -26,7 +26,7 @@ export default function Offering3() {
             </h2>
             <p className="mt-4 text-4xl font-extrabold text-gray-900 tracking-tight">All in the Details</p>
             <p className="mt-4 text-gray-500">
-              We've obsessed over every detail of this handcrafted journal to bring you the best materials for daily
+              Weve obsessed over every detail of this handcrafted journal to bring you the best materials for daily
               use.
             </p>
 

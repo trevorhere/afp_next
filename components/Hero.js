@@ -1,8 +1,6 @@
 /* This example requires Tailwind CSS v2.0+ */
-import { Fragment } from 'react'
 
-
-export default function Hero() {
+export default function Hero(){
   return (
     <div className="bg-white">
       <header>

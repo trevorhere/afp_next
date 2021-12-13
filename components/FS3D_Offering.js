@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 export default function FS3D_Offering({title, description, images, bullets }) {
   return (
     <div className="bg-white">
@@ -21,7 +23,8 @@ export default function FS3D_Offering({title, description, images, bullets }) {
         </div>
         <div className="grid grid-cols-2 grid-rows-2 gap-4 sm:gap-6 lg:gap-8">
           {images.map((image) => (
-            <img
+            <Image
+              key={image?.src}
               src={image.src}
               alt={image.alt}
               className="bg-gray-100 rounded-lg"

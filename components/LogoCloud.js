@@ -1,4 +1,6 @@
-export default function LogoCloud({logos}) {
+import Image from 'next/image'
+
+export default function LogoCloud({logos}){
   return (
     <div className="bg-gray-800 ">
     <div className="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
@@ -9,8 +11,8 @@ export default function LogoCloud({logos}) {
         <div className="flow-root self-center mt-8 lg:mt-0">
           <div className="-mt-4 -ml-8 flex flex-wrap justify-between lg:-ml-4">
             {logos.map(logo => (
-              <div className="mt-4 ml-8 flex flex-grow flex-shrink-0 justify-center lg:flex-grow-0 lg:ml-4">
-                <img className="h-12" 
+              <div key={logo.src} className="mt-4 ml-8 flex flex-grow flex-shrink-0 justify-center lg:flex-grow-0 lg:ml-4">
+                <Image className="h-12" 
                   src={logo.src}
                   alt={logo.alt} 
                 />
