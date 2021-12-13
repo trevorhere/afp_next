@@ -153,7 +153,7 @@ export default function Home() {
             },
         ]}
         ></LogoCloud>
-        <OurTeam
+        {/* <OurTeam
         people={[{
           name: 'Joel Lane',
           role: 'Director, AFP',
@@ -163,7 +163,7 @@ export default function Home() {
           twitterUrl: '#',
           linkedinUrl: '#',
         }]}
-        ></OurTeam>
+        ></OurTeam> */}
       </main>
       <footer>
       </footer>
