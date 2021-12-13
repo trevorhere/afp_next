@@ -153,17 +153,39 @@ export default function Home() {
             },
         ]}
         ></LogoCloud>
-        {/* <OurTeam
+        <OurTeam
         people={[{
           name: 'Joel Lane',
           role: 'Director, AFP',
-          imageUrl: '/images/joel/joel_7.png',
-          bio:
-            'Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.',
-          twitterUrl: '#',
-          linkedinUrl: '#',
-        }]}
-        ></OurTeam> */}
+          imageUrl: '/images/joel/joel.png',
+          bio: `
+          Joel has served over 40 years as a firefighter for the USFS. He worked on the ground for 20  years as a hotshot, squad boss, Captain and Superintendent. Joel spent the last 20 years of his career in the air as an Air Attack, Air Attack Trainer, and Forest Aviation Officer. He is currently working with OCFA's Quick Reaction Force where they are pioneering in the aerial fire fighting space. `,
+          twitterUrl: 'https://twitter.com/zunibirdjoel',
+          linkedinUrl: 'https://www.linkedin.com/in/joel-lane-21204656',
+        },
+     {
+          name: 'Ken Perry',
+          role: 'Director, AFP',
+          imageUrl: '/images/ken/ken.png',
+          bio: `
+
+          Ken has over 35 years of firefighting experience. He worked as a hotshot before transitioning to the air as a Smoke Jumper. After jumping for 8 years, Ken became a Division Supervisor, Incident III Commander, & FAA Senior Parachute Rigger/Test Jumper. Ken then served as an Air Tactical Group Supervisor. He currently serves as an aerial firefighting instructor across multiple organizations. 
+          `,
+
+          twitterUrl: 'https://twitter.com/desertrunnerdud',
+        },
+        {
+          name: 'Gus Johnson',
+          role: 'Director, AFP',
+          imageUrl: '/images/gus/gus_1.png',
+          bio: `
+
+            Gus has served over 30 years as firefighter as a Battalion Chief, Chief Officer, Logistics Section Chief, & Air Operations Branch Director. He has fought fire as an Air Attack for over 20 years, and has served as an Air Tactis Group Supervisor. Gus continues to work with OFCA's Quick Reaction Force in addition to instructing aerial fire fighters in various organizations.
+          `,
+        } 
+      ]}
+
+        ></OurTeam>
       </main>
       <footer>
       </footer>
