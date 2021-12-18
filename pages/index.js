@@ -57,23 +57,29 @@ export default function Home() {
           imageRight={false}
           imageSrc={'/images/classroom.png'}
           title='Classroom Training'
-          description='An engaging course curriculum taught by experts with decades of firefighter training and education experience. .'
+          description='An engaging course curriculum and discussion led by a cadre with decades of aerial and ground firefighting training and education experience. Topics include, but are not limited to:'
           bullets={[
             {
-              title: 'Incident command system',
-              description: 'Understand and implement effective command systems.'
+              title: 'Incident Command System (ICS)',
+              description: 'Basic information on the concept and implementation of the ICS system, with emphasis on Air Operations and Ground operations'
             },
             {
-              title: 'Fire traffic area',
-              description: 'Learn to maintain air and ground control around fire traffic areas.'
+              title: 'Sand Table Exercises (STEX)',
+              description: 'Used for time compressed tactical exercises in group setting, as well as a tool for After Action Review (AAR) and creative discussion of strategy and tactics.'
             },
             {
-              title: 'Sand table exercises',
-              description: 'Exercises designed to teach high level understanding of complex scenarios.'
+              title: 'Fire Traffic Area (FTA)',
+              description: `History, structural dimensions, and rules of engagement for operations within Incident Airspace. 
+              *This can be tailored and facilitated for airspace protocols for agencies and governments that have their own structure.`
             },
             {
-              title: 'Fire anatomy/terminology',
-              description: 'Effectively communicate within an incident response team.'
+              title: 'Fire Anatomy/Terminology/Fire Behavior & Fuels',
+              description: 'Identify and discuss key indicators of fire behavior, sizing up an incident, and communicating to Managers, aviators and ground forces.'
+            },
+            {
+              title: 'Mission CRM/Human Factors',
+              description: `Examples and discussion of teamwork within and beyond the cockpit to achieve a common goal while providing a safe and effective environment.
+              `
             },
             // {title: 'Initial attack & size up', description: '' },
           ]}
@@ -170,9 +176,8 @@ export default function Home() {
           bio: `
 
           Ken has over 35 years of firefighting experience. He worked as a hotshot before transitioning to the air as a Smoke Jumper. After jumping for 8 years, Ken became a Division Supervisor, Incident III Commander, & FAA Senior Parachute Rigger/Test Jumper. Ken then served as an Air Tactical Group Supervisor. He currently serves as an aerial firefighting instructor across multiple organizations. 
-          `,
+          `
 
-          twitterUrl: 'https://twitter.com/desertrunnerdud',
         },
         {
           name: 'Gus Johnson',
