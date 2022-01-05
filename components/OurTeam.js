@@ -25,6 +25,8 @@ export default function OurTeam({people}){
                     <div className="text-lg leading-6 font-medium space-y-1">
                       <h3>{person.name}</h3>
                       <p className="text-fire">{person.role}</p>
+                      <h3>{person?.email}</h3>
+                      <h3>{person?.phone}</h3>
                     </div>
                     <div className="text-lg">
                       <p className="text-gray-500">{person.bio}</p>

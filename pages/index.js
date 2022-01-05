@@ -177,6 +177,8 @@ export default function Home() {
         people={[{
           name: 'Joel Lane',
           role: 'Director, AFP',
+          email: 'zunibird13@gmail.com',
+          phone: '559 310 9430',
           imageUrl: '/images/joel/joel.png',
           bio: `
           Joel has served over 40 years as a firefighter for the USFS. He worked on the ground for 20  years as a hotshot, squad boss, Captain and Superintendent. Joel spent the last 20 years of his career in the air as an Air Attack, Air Attack Trainer, and Forest Aviation Officer. He is currently working with OCFA's Quick Reaction Force where they are pioneering in the aerial fire fighting space. `,
@@ -186,6 +188,7 @@ export default function Home() {
      {
           name: 'Ken Perry',
           role: 'Director, AFP',
+          email: '',
           imageUrl: '/images/ken/ken.png',
           bio: `
 
