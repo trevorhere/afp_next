@@ -68,10 +68,6 @@ export default function Home() {
               description: `Used as a time compressed tactical exercise for group settings. Sand Tables also serve as tools for After Action Review (AAR) discussions, as well as creative, and visual environments for sharing creative strategy/ tactics, lessons learned, and best practices.`
             },
             {
-              title: 'Fire Traffic Area (FTA)',
-              description: `History, structural dimensions, and rules of engagement for operations within Incident Airspace.`
-            },
-            {
               title: 'Fire Anatomy/Terminology/Fire Behavior & Fuels',
               description: `Identify and discuss key visual indicators of fire behavior, emphasizing Incident size-up, and communicating, indicators to incident commanders, chief officers, aviators, ground forces and coordinators.`
             },
@@ -79,6 +75,11 @@ export default function Home() {
               title: 'Mission CRM/Human Factors',
               description: `Classroom discussion and exercises that will enhance tactical CRM between flight crew members and ground forces in order to achieve mission objectives with a safe, efficient, and effective goal.`
             },
+            {
+              title: 'Fire Traffic Area (FTA)',
+              description: `History, structural dimensions, and rules of engagement for operations within Incident Airspace.`
+            },
+
             // {title: 'Initial attack & size up', description: '' },
           ]}
         ></Offering>
