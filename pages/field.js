@@ -6,7 +6,7 @@ import Divider from '../components/Divider'
 
 const images = [
   {
-    imageSrc: "https://www.youtube.com/embed/4_pA0FMOuiw",
+    imageSrc: "https://www.youtube.com/embed/4_pA0FMOuiw?rel=0",
     imageAlt: 'Tanker drop',
     image: false,
     name: 'Tanker Drop'
