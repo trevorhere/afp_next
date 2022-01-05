@@ -61,25 +61,23 @@ export default function Home() {
           bullets={[
             {
               title: 'Incident Command System (ICS)',
-              description: 'Basic information on the concept and implementation of the ICS system, with emphasis on Air Operations and Ground operations'
+              description: 'Basic information on the concept and implementation of the ICS, with emphasis on air and ground operations.'
             },
             {
               title: 'Sand Table Exercises (STEX)',
-              description: 'Used for time compressed tactical exercises in group setting, as well as a tool for After Action Review (AAR) and creative discussion of strategy and tactics.'
+              description: `Used as a time compressed tactical exercise for group settings. Sand Tables also serve as tools for After Action Review (AAR) discussions, as well as creative, and visual environments for sharing creative strategy/ tactics, lessons learned, and best practices.`
             },
             {
               title: 'Fire Traffic Area (FTA)',
-              description: `History, structural dimensions, and rules of engagement for operations within Incident Airspace. 
-              *This can be tailored and facilitated for airspace protocols for agencies and governments that have their own structure.`
+              description: `History, structural dimensions, and rules of engagement for operations within Incident Airspace.`
             },
             {
               title: 'Fire Anatomy/Terminology/Fire Behavior & Fuels',
-              description: 'Identify and discuss key indicators of fire behavior, sizing up an incident, and communicating to Managers, aviators and ground forces.'
+              description: `Identify and discuss key visual indicators of fire behavior, emphasizing Incident size-up, and communicating, indicators to incident commanders, chief officers, aviators, ground forces and coordinators.`
             },
             {
               title: 'Mission CRM/Human Factors',
-              description: `Examples and discussion of teamwork within and beyond the cockpit to achieve a common goal while providing a safe and effective environment.
-              `
+              description: `Classroom discussion and exercises that will enhance tactical CRM between flight crew members and ground forces in order to achieve mission objectives with a safe, efficient, and effective goal.`
             },
             // {title: 'Initial attack & size up', description: '' },
           ]}
