@@ -60,7 +60,7 @@ export default function Home() {
             },
             {
               title: 'Ground tactics and strategy',
-              description: 'In addition to aerial training, we train best practices for crew working on the ground.'
+              description: 'In addition to aerial training, we instruct on best practices for crews working on the ground.'
             },
           ]}
         ></Offering>

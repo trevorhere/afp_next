@@ -8,12 +8,16 @@ const images = [
   {
     imageSrc: "https://www.youtube.com/embed/4_pA0FMOuiw",
     imageAlt: 'Tanker drop',
-    image: false 
+    image: false,
+    name: 'Tanker Drop'
+
   },
   {
     imageSrc:"https://www.youtube.com/embed/QJotviQ89kE",
     imageAlt: 'Tanker drop',
-    image: false 
+    image: false,
+    name: 'Scooper Drop'
+
   },
   {
     imageSrc: '/images/field/field_1.jpg',
@@ -65,7 +69,7 @@ export default function field() {
           Field Exercises
         </h2>
         <p className="mt-5 text-xl text-gray-400 text-center">
-          Immersive, realistic wildfire training using state of the art Virtual Reality hardware and software. 
+        In-field training exercises developed specifically for your team, based on real world scenarios.
         </p>
       </div>
     </div>
@@ -123,10 +127,10 @@ export default function field() {
         <div className="mt-11 grid items-start grid-cols-1 gap-y-16 gap-x-6 sm:mt-16 sm:grid-cols-2 lg:grid-cols-3 lg:gap-x-8">
           {images.map((image, i) => (
             <div key={i} className="flex flex-col-reverse">
-              {/* <div className="mt-6">
-                <h3 className="text-sm font-medium text-gray-900">{feature.name}</h3>
-                <p className="mt-2 text-sm text-gray-500">{feature.description}</p>
-              </div> */}
+              <div className="mt-6">
+                <h3 className="text-md text-center font-medium px-2 text-gray-900">{image?.name}</h3>
+                <p className="mt-2 text-sm text-gray-500">{image?.description}</p>
+              </div>
               { !image?.image 
           ? (<div className="aspect-w-16 aspect-h-12">
               <iframe 
