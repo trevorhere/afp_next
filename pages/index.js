@@ -188,17 +188,19 @@ export default function Home() {
      {
           name: 'Ken Perry',
           role: 'Director, AFP',
-          email: '',
+          email: 'afsimconsult@gmail.com',
+          phone: '661 350 5225',
           imageUrl: '/images/ken/ken.png',
           bio: `
 
           Ken has over 35 years of firefighting experience. He worked as a hotshot before transitioning to the air as a Smoke Jumper. After jumping for 8 years, Ken became a Division Supervisor, Incident III Commander, & FAA Senior Parachute Rigger/Test Jumper. Ken then served as an Air Tactical Group Supervisor. He currently serves as an aerial firefighting instructor across multiple organizations. 
           `
-
         },
         {
           name: 'Gus Johnson',
           role: 'Director, AFP',
+          email: 'pvjhnson@gmail.com',
+          phone: '559 708 3570',
           imageUrl: '/images/gus/gus_1.png',
           bio: `
 
