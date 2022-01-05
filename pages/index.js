@@ -40,7 +40,7 @@ export default function Home() {
             },
             {
               title: 'Integration with current wildland firefighters',
-              description: 'We maintain active relationships with active wildland firefights who are available and ready to train.' 
+              description: 'We maintain active relationships with active wildland firefighters who are available and ready to train.' 
             },
             {
               title: 'Performance review and evaluation',
@@ -67,12 +67,10 @@ export default function Home() {
               title: 'Incident Command System (ICS)',
               description: 'Basic information on the concept and implementation of the ICS, with emphasis on air and ground operations.'
             },
-
             {
               title: 'Sand Table Exercises (STEX)',
               description: `Used as a time compressed tactical exercise for group settings. Sand Tables also serve as tools for After Action Review (AAR) discussions, as well as creative, and visual environments for sharing creative strategy/ tactics, lessons learned, and best practices.`
             },
-
             {
               title: 'Fire Anatomy/Terminology/Fire Behavior & Fuels',
               description: `Identify and discuss key visual indicators of fire behavior, emphasizing Incident size-up, and communicating, indicators to incident commanders, chief officers, aviators, ground forces and coordinators.`
@@ -91,7 +89,7 @@ export default function Home() {
           bgLight={true}
           showButton={true}
           title='FS3D Virtual Reality Simulations '
-          description='Immersive digital wildfire training using state of the art Virtual Reality hardware and software. '
+          description='Immersive, realistic wildfire training using state of the art Virtual Reality hardware and software. '
           images={[
             {
               src: '/images/gifs/fs3d_1gif.gif',
@@ -111,10 +109,10 @@ export default function Home() {
             }
           ]}
           bullets={[
-            {title: 'Real-time multi-user interaction', description: 'Run incident simulations with full teams including air attacks, pilots, ground crew, etc.' },
-            {title: 'Over 20 flight platforms and configurations', description: 'Train on widely used fixed wing and rotary wing platforms with accurate tank and drop controller configurations.' },
-            {title: '360 degree field-of-view simulations', description: 'Use immersive Virtual Reality head sets that allow a comlete view of the aircraft and environment.' },
-            {title: 'Control fire and environment characteristics', description: 'Fine tune fire behaivor and suppresion, smoke dispersion and other environment characteristics.' },
+            {title: 'Real-time multi-user interaction', description: 'Run incident simulations with live role players including aerial supervision, airtanker/helicopter pilots, ground crews, etc.' },
+            {title: 'Over 20 flight platforms and configurations', description: 'Train using aircraft that include accurate, functioning cockpits, realistic flight dynamics even during water/retardant release, and true-to-life paint jobs.' },
+            {title: 'Fully immersive, realistic first-person simulations', description: 'Virtual Reality brings 3D realism with every glance, wing check, sun glare, and smoke plume penetration.' },
+            {title: 'Accurate fire growth and suppression with dynamic weather', description: 'Industry-standard fire growth modeling with the most accurate suppression effects available. Facilitators can adjust weather parameters at any time to change fire characteristics.' },
           ]}
         ></FS3D_Offering>
         {/* <Offering

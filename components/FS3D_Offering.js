@@ -22,8 +22,8 @@ export default function FS3D_Offering({title, description, images, bullets, vide
           <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
             {bullets.map((bullet) => (
               <div key={bullet?.title} className="border-t border-gray-100 pt-4">
-                <dt className={`font-medium ${bgLight ? 'text-gray-900' : 'text-white'}`}>{bullet?.title}</dt>
-                <dd className="mt-2 text-sm text-gray-500">{bullet?.description}</dd>
+                <dt className={`text-lg ${bgLight ? 'text-gray-900' : 'text-white'}`}>{bullet?.title}</dt>
+                <dd className="mt-2 text-md text-gray-400">{bullet?.description}</dd>
               </div>
             ))}
           </dl>

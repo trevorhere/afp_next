@@ -1,42 +1,47 @@
 /* This example requires Tailwind CSS v2.0+ */
 
-import { AdjustmentsIcon, MapIcon, GlobeAltIcon, LightningBoltIcon,  ScaleIcon } from '@heroicons/react/outline'
+import {AdjustmentsIcon, MapIcon, SearchCircleIcon} from '@heroicons/react/outline'
 import FS3D_Offering from '../components/FS3D_Offering'
 import Divider from '../components/Divider'
 
 const communicationFeatures = [
   {
     id: 1,
-    name: 'High fidelity virtural environments',
+    name: 'High fidelity virtural environment',
     description:
-      'Fire, smoke, weather, structures, and flight platforms are rendered in precise detail using advanced visual simulation software.',
+      'Fire, smoke, weather, structures and aircraft are rendered in precise detail using advanced visual simulation software.',
     icon: MapIcon,
   },
   {
     id: 2,
+    name: 'Accurate aircraft physical models with firefighting modifications',
+    description: `All currently active aircraft types used in wildland firefighting are available, with gross weights, CG, and performance tuned to match firefighting specifications.`,
+    icon: SearchCircleIcon,
+  },
+  {
+    id: 3,
     name: 'Fine-tuned incident simulations',
-    description:
-      'Environment behavior and characteristics match real world via data from algorithmic models.',
+    description: `Weather, fuels and natural or man-made barriers are initialized from real-world data and adjustable during a simulation, with immediate recalculation of fire progression after every change.`,
     icon: AdjustmentsIcon,
   },
 ]
 
 const simulatedEnvironmentFeatures = [
   {
-    name: 'Hardware & Controls',
-    description: 'FS3D uses a light weight, 360° field-of-view headset with physical flight controls to provide a realistic experience for pilots.',
+    name: 'Controls & Immersion',
+    description: `Realistic flight controls with advanced, multi-channel radio emulation incorporating real background noise are combined with the latest high-performance Virtual Reality equipment to produce a level of student immersion that is closer than ever to real life.`,
     imageSrc: '/images/FS3D/pilot_1.png',
     imageAlt: 'Green cardstock box containing white, beige, and brown cards.',
   },
   {
     name: 'Fire Behavior & Characteristics',
-    description: 'Using advanced fire behaivor modeling programs, FS3D provides realistic wildfire simulations.',
+    description: `FS3D provides the most realistic wildfire simulations by using the latest scientific fire behavior modeling, coupled with real-world suppression performance and effectiveness data.`,
     imageSrc: '/images/gifs/fire_wind_change_1.gif',
     imageAlt: 'Green cardstock box open with 50 cards inside.',
   },
   {
-    name: 'Multi-User Platform',
-    description: 'Observe & interact as a team from any position withint the simulated environment.', 
+    name: 'Online or offline multiplayer support',
+    description: 'Bring FS3D to in-person training wherever you are or bring your trainees together, virtually, in FS3D from anywhere in the world.',
     imageSrc: '/images/gifs/fs3d_7gif.gif',
     imageAlt: 'Detail of white today card, beige next card, and brown someday card with dot grid.',
   },
@@ -52,7 +57,7 @@ export default function fs3d() {
           FS3D VR Simulations  
         </h2>
         <p className="mt-5 text-xl text-gray-400 text-center">
-          Immersive digital wildfire training using state of the art Virtual Reality hardware and software. 
+          Immersive, realistic wildfire training using state of the art Virtual Reality hardware and software. 
         </p>
       </div>
     </div>
@@ -67,7 +72,7 @@ export default function fs3d() {
             <div className="lg:col-start-2">
               <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">The FS3D Platform</h3>
               <p className="mt-3 text-lg text-gray-500">
-                FS3D combines lightweight VR headsets, computers, and physical flight controls to provide and immersive wildland firefighting experience.
+              FS3D combines lightweight VR headsets, Windows desktops or laptops, and physical flight controls to provide an immersive wildland firefighting experience.
               </p>
 
               <dl className="mt-10 space-y-10">
@@ -103,7 +108,8 @@ export default function fs3d() {
         <div className="max-w-3xl">
           <p className="mt-2 text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">Simulated Environment</p>
           <p className="mt-4 text-gray-500">
-            In addition to hi-fidelity experiences for pilots and ATG personnel, FS3D provides the opprotunity for interdisciplinary teams to interact within the simulated environment.   </p>
+            Ground-based role player perspectives with realistic mobility and visibility, as well as non-flying aerial perspectives, offer the ability to create more integrated multidisciplinary simulations than ever before.
+          </p>
         </div>
 
         <div className="mt-11 grid items-start grid-cols-1 gap-y-16 gap-x-6 sm:mt-16 sm:grid-cols-2 lg:grid-cols-3 lg:gap-x-8">
@@ -122,16 +128,16 @@ export default function fs3d() {
         <FS3D_Offering 
           preTitle='Case Study'
           bgLight={false}
-          title='US Airforce Research Labs '
-          description='FS3D spent 5 days instructing the United States Airforce Research Lab using the FS3D platform.'
+          title='USAF MAFFS Training'
+          description={`The United States Air Force selected FS3D for development and delivery of immersive simulation-based training for the MAFFS program, an Air Force capability that provides surge support to the civilian aerial firefighting fleet in times of high demand.`}
           showButton={false} 
           images={null} 
           video={{src: '', alt: ''}}
           bullets={[
-            {title: 'Instructed 2 Teams of 20 individuals', description: 'Run incident simulations with full teams including air attacks, pilots, ground crew, etc.' },
-            {title: 'Trained on 11 simulated fire incidents', description: 'Train on widely used fixed wing and rotary wing platforms with accurate tank and drop controller configurations.' },
-            {title: 'Encounted 5 different geographic environments', description: 'Use immersive Virtual Reality head sets that allow a comlete view of the aircraft and environment.' },
-            {title: 'Trained 3 secondary incident scenarios', description: 'Fine tune fire behaivor and suppresion, smoke dispersion and other environment characteristics.' },
+            {title: 'Training On Demand', description: 'Demonstrated mobile, modular, small-footprint, high-throughput immersive training stations to all four MAFFS wings during two preseason training events in May 2021.'},
+            {title: 'Equipment Innovation', description: 'Delivered an enhanced prototype system with advanced flight controls, improved VR performance, and a more compact, powerful laptop in a lightweight, durable shipping case.' },
+            {title: 'Ultimate Customization', description: 'MAFFS-modified cockpit recreated from photos and descriptions of instrument/flight computer operation with full PFD, flight director and autopilot functionality.' },
+            {title: 'Unprecedented Preparation', description: 'Using FS3D, MAFFS pilots experience the complications, errors and omissions of the real fire environment before facing life-and-death decisions while dealing with them.' },
           ]}
         ></FS3D_Offering>
       </div>
