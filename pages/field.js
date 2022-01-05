@@ -13,7 +13,7 @@ const images = [
 
   },
   {
-    imageSrc:"https://www.youtube.com/embed/QJotviQ89kE",
+    imageSrc:"https://www.youtube.com/embed/QJotviQ89kE?rel=0",
     imageAlt: 'Tanker drop',
     image: false,
     name: 'Scooper Drop'
@@ -25,7 +25,7 @@ const images = [
     image: true
   },
   {
-    imageSrc: "https://www.youtube.com/embed/NtCdDSHl8no",
+    imageSrc: "https://www.youtube.com/embed/NtCdDSHl8no?rel=0",
     imageAlt: 'Smoke generator',
     image: false 
   },
@@ -35,7 +35,7 @@ const images = [
     image: true
   },
   {
-    imageSrc: "https://www.youtube.com/embed/BrMad263Bgw",
+    imageSrc: "https://www.youtube.com/embed/BrMad263Bgw?rel=0",
     imageAlt: 'Tanker drop 2',
     image: false 
   },
@@ -47,12 +47,12 @@ const images = [
     image: true
   },
   {
-    imageSrc: "https://www.youtube.com/embed/xo1D_JH-Ub0",
+    imageSrc: "https://www.youtube.com/embed/xo1D_JH-Ub0?rel=0",
     imageAlt: 'hot line ',
     image: false 
   },
   {
-   imageSrc: "https://www.youtube.com/embed/A1AXqpPg4v4",
+   imageSrc: "https://www.youtube.com/embed/A1AXqpPg4v4?rel=0",
     imageAlt: 'Tanker drop',
     image: false 
   },
