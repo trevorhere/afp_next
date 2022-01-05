@@ -60,20 +60,22 @@ export default function Home() {
           description='An engaging course curriculum and discussion led by a cadre with decades of aerial and ground firefighting training and education experience. Topics include, but are not limited to:'
           bullets={[
             {
+              title: 'Mission CRM/Human Factors',
+              description: `Classroom discussion and exercises that will enhance tactical CRM between flight crew members and ground forces in order to achieve mission objectives with a safe, efficient, and effective goal.`
+            },
+            {
               title: 'Incident Command System (ICS)',
               description: 'Basic information on the concept and implementation of the ICS, with emphasis on air and ground operations.'
             },
+
             {
               title: 'Sand Table Exercises (STEX)',
               description: `Used as a time compressed tactical exercise for group settings. Sand Tables also serve as tools for After Action Review (AAR) discussions, as well as creative, and visual environments for sharing creative strategy/ tactics, lessons learned, and best practices.`
             },
+
             {
               title: 'Fire Anatomy/Terminology/Fire Behavior & Fuels',
               description: `Identify and discuss key visual indicators of fire behavior, emphasizing Incident size-up, and communicating, indicators to incident commanders, chief officers, aviators, ground forces and coordinators.`
-            },
-            {
-              title: 'Mission CRM/Human Factors',
-              description: `Classroom discussion and exercises that will enhance tactical CRM between flight crew members and ground forces in order to achieve mission objectives with a safe, efficient, and effective goal.`
             },
             {
               title: 'Fire Traffic Area (FTA)',
