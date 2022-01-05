@@ -1,6 +1,8 @@
 import Image from 'next/image'
+import { useRouter } from 'next/router'
 
-export default function Offering2({imageRight, imageSrc, title, description, bullets}){
+export default function Offering({imageRight, imageSrc, title, description, bullets, showButton, buttonLink, buttonText}){
+  const router = useRouter();
   return (
     <div className="bg-white">
       <section aria-labelledby="features-heading" className="relative  my-24">
@@ -19,6 +21,16 @@ export default function Offering2({imageRight, imageSrc, title, description, bul
             </h2> */}
             <p className="mt-4 text-4xl font-extrabold text-gray-900 tracking-tight">{title}</p>
             <p className="mt-4 text-gray-500">{description}</p>
+             {showButton && <button
+            onClick={(e) => {
+              e.preventDefault()
+              router.push(buttonLink)
+            }}
+                type="button"
+                className=" my-5 inline-flex items-center px-3 py-2 border border-transparent text-sm leading-4 font-medium rounded-md shadow-sm text-white bg-fire hover:bg-fire focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black"
+              >{buttonText} 
+              </button>}
+
             <dl className="mt-10 grid grid-cols-1 gap-y-10 gap-x-8 text-sm sm:grid-cols-2">
               {bullets.length && bullets.map((bullet) => (
                 <div key={bullet.title}>

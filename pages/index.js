@@ -4,15 +4,24 @@ import styles from '../styles/Home.module.css'
 import Hero from '../components/Hero'
 import Offering from '../components/Offering'
 import FS3D_Offering from '../components/FS3D_Offering' 
-import AFP_Offering from '../components/AFP_Offering'
-import Offering1 from '../components/Offering1'
-import Offering2 from '../components/Offering2'
-import Offering3 from '../components/Offering3'
 import Divider from '../components/Divider'
 import LogoCloud from '../components/LogoCloud'
 import OurTeam from '../components/OurTeam'
+import { useRouter } from 'next/router'
+
+          //   {showButton && <button
+          //   onClick={(e) => {
+          //     e.preventDefault()
+          //     router.push('/fs3d')
+          //   }}
+          //   type="button"
+          //   className=" my-5 inline-flex items-center px-3 py-2 border border-transparent text-sm leading-4 font-medium rounded-md shadow-sm text-white bg-fire hover:bg-fire focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black"
+          //  > Learn More
+          // </button>}
 
 export default function Home() {
+  const router = useRouter();
+
   return (
     <div >
       <Head>
@@ -28,6 +37,9 @@ export default function Home() {
         {/* <AFP_Offering></AFP_Offering> */}
         <Offering
           imageRight={true}
+          showButton={true}
+          buttonLink='/field'
+          buttonText='View Gallery'
           imageSrc={'/images/TankerDrop.png'}
           title='Field Exercises'
           description='In-field training exercises developed specifically for your team, based on real world scenarios.'
@@ -55,6 +67,9 @@ export default function Home() {
         <Divider></Divider>
         <Offering
           imageRight={false}
+          showButton={true}
+          buttonLink='/classroom'
+          buttonText='View Gallery'
           imageSrc={'/images/classroom.png'}
           title='Classroom Training'
           description='An engaging course curriculum and discussion led by a cadre with decades of aerial and ground firefighting training and education experience. Topics include, but are not limited to:'
