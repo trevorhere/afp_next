@@ -7,7 +7,7 @@ import Divider from '../components/Divider'
 const communicationFeatures = [
   {
     id: 1,
-    name: 'High fidelity virtural environment',
+    name: 'High fidelity virtual environment',
     description:
       'Fire, smoke, weather, structures and aircraft are rendered in precise detail using advanced visual simulation software.',
     icon: MapIcon,
@@ -93,8 +93,11 @@ export default function fs3d() {
             <div className="mt-10  relative lg:mt-0 lg:col-start-1">
               <div className="aspect-w-16 aspect-h-12">
                 <iframe 
-                src="https://www.youtube.com/embed/2t806A2GGns"
-                 frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                  src="https://www.youtube.com/embed/zk00xCl1LsI"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen>
+                </iframe>
               </div>
             </div>
           </div>
