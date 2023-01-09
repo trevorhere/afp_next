@@ -1,10 +1,10 @@
 import Image from 'next/image'
 import { useRouter } from 'next/router'
 
-export default function Offering({imageRight, imageSrc, title, description, bullets, showButton, buttonLink, buttonText}){
+export default function Offering({component_id, imageRight, imageSrc, title, description, bullets, showButton, buttonLink, buttonText}){
   const router = useRouter();
   return (
-    <div className="bg-white">
+    <div id={component_id} className="bg-white">
       <section aria-labelledby="features-heading" className="relative  my-24">
         <div className={`w- aspect-w-3 aspect-h-2 overflow-hidden sm:aspect-w-5 lg:aspect-none lg:absolute lg:w-1/2 lg:h-full  ${imageRight ? 'right-0 lg:pl-4 xl:pl-16 ' : 'lg:pr-4 xl:pr-16'}`}>
           <img
@@ -22,7 +22,7 @@ export default function Offering({imageRight, imageSrc, title, description, bull
             <p className="mt-4 text-4xl font-extrabold text-gray-900 tracking-tight">{title}</p>
             <p className="mt-4 text-gray-500">{description}</p>
              {showButton && <button
-            onClick={(e) => {
+              onClick={(e) => {
               e.preventDefault()
               router.push(buttonLink)
             }}

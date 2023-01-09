@@ -2,7 +2,8 @@ import Image from 'next/image'
 
 export default function OurTeam({people}){
   return (
-    <div className="bg-white">
+    <div id="our_team" className="bg-white">
+
       <div className="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
         <div className="space-y-12 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0">
           <div className="space-y-5 sm:space-y-4">

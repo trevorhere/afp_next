@@ -1,7 +1,7 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Hero from '../components/Hero'
+import Nav from '../components/Nav'
 import Offering from '../components/Offering'
 import FS3D_Offering from '../components/FS3D_Offering' 
 import Divider from '../components/Divider'
@@ -24,18 +24,20 @@ export default function Home() {
 
   return (
     <div >
+      <Nav/>
       <Head>
         <title>AFP</title>
         <meta name="Anchor Flank & Pinch" content="Leaders in wildland firefighting training" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero className="w-full"></Hero>
-      <main className={styles.main}>
+      <main id="what_we_do" className={styles.main}>
         <p className="my-24 text-5xl font-extrabold text-gray-900 tracking-tight">What We Do</p>
         <Divider></Divider>
 
         {/* <AFP_Offering></AFP_Offering> */}
         <Offering
+          component_id='field_exercises'
           imageRight={true}
           showButton={true}
           buttonLink='/field'
@@ -66,6 +68,8 @@ export default function Home() {
         ></Offering>
         <Divider></Divider>
         <Offering
+          id="classroom_training"
+          component_id='classroom_training'
           imageRight={false}
           showButton={true}
           buttonLink='/classroom'
@@ -100,6 +104,7 @@ export default function Home() {
         ></Offering>
         <Divider></Divider>
         <FS3D_Offering 
+          component_id='fs3d'
           video={null}
           bgLight={true}
           showButton={true}
@@ -174,7 +179,8 @@ export default function Home() {
         ]}
         ></LogoCloud>
         <OurTeam
-        people={[{
+          id="our_team"
+          people={[{
           name: 'Joel Lane',
           role: 'Director, AFP',
           email: 'zunibird13@gmail.com',

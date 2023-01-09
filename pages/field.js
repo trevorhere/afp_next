@@ -1,8 +1,4 @@
-/* This example requires Tailwind CSS v2.0+ */
-
-import {AdjustmentsIcon, MapIcon, SearchCircleIcon} from '@heroicons/react/outline'
-import FS3D_Offering from '../components/FS3D_Offering'
-import Divider from '../components/Divider'
+import { useRouter } from 'next/router'
 
 const images = [
   {
@@ -59,11 +55,22 @@ const images = [
 
 ]
 
-export default function field() {
+export default function Field() {
+  const router = useRouter();
+
   return (
     <>
     <div className="bg-gray-800 ">
-    <div className="max-w-7xl  mx-auto py-24  px-4 sm:py-24 sm:px-6 lg:px-8 lg:flex lg:justify-center">
+    <button
+      onClick={(e) => {
+        e.preventDefault()
+        router.push('/')
+      }}
+          type="button"
+          className="mx-8 mt-8 inline-flex items-center px-3 py-2 border border-transparent text-sm leading-4 font-medium rounded-md shadow-sm text-white bg-fire hover:bg-fire focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black"
+     >Back</button>
+
+    <div className="max-w-7xl  mx-auto py-12  px-4 sm:py-12 sm:px-6 lg:px-8 lg:flex lg:justify-center">
       <div className="max-w-xl">
         <h2 className="text-4xl text-center font-extrabold text-white sm:text-5xl sm:tracking-tight lg:text-6xl">
           Field Exercises

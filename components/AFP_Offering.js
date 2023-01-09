@@ -43,7 +43,8 @@ const communicationFeatures = [
 
 export default function AFP_Offering() {
   return (
-    <div className="py-16 bg-gray-50 overflow-hidden lg:py-24">
+    <div id="classroom_training"
+     className="py-16 bg-gray-50 overflow-hidden lg:py-24">
       <div className="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-7xl">
         <svg
           className="hidden lg:block absolute left-full transform -translate-x-1/2 -translate-y-1/4"

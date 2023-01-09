@@ -1,10 +1,10 @@
 import Image from 'next/image'
 import { useRouter } from 'next/router'
 
-export default function FS3D_Offering({title, description, images, bullets, video, showButton, preTitle, bgLight}) {
+export default function FS3D_Offering({component_id, title, description, images, bullets, video, showButton, preTitle, bgLight}) {
   const router = useRouter();
   return (
-    <div className={bgLight ? ' bg-white ' : ' bg-gray-800 rounded-xl'}>
+    <div id={component_id} className={bgLight ? ' bg-white ' : ' bg-gray-800 rounded-xl'}>
       <div className="max-w-2xl mx-auto py-24 px-4 grid items-center grid-cols-1 gap-y-16 gap-x-8 sm:px-6 sm:py-10 sm:my-14 lg:max-w-7xl lg:px-8 lg:grid-cols-2">
         <div>
           {preTitle && <h2 className="py-5 font-semibold text-xl text-fire">{preTitle}</h2> }
