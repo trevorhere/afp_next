@@ -21,7 +21,7 @@ export default function Hero(){
               <h1 className="pt-4 italic text-md md:text-xl font-serif">
                 The best in aerial firefighting training programs<br/>
                 combined with leading real-world simulation software<br/>
-                to support our wildland firefighting heros.<br/>
+                setting a new wildland firefighting standard of excellence.<br/>
               </h1>
               <h1 className="pt-4 italic text-md md:text-xl font-serif">
                 Official site coming soon.
