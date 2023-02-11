@@ -3,41 +3,40 @@ import styles from '../styles/Home.module.css'
 import Hero from '../components/Hero'
 import Nav from '../components/Nav'
 import Offering from '../components/Offering'
-import FS3D_Offering from '../components/FS3D_Offering' 
+import FS3D_Offering from '../components/FS3D_Offering'
 import Divider from '../components/Divider'
 import LogoCloud from '../components/LogoCloud'
 import OurTeam from '../components/OurTeam'
-import {useRouter} from 'next/router'
+import { useRouter } from 'next/router'
 
 export default function Home() {
   const router = useRouter();
 
   return (
     <div >
-      <Nav/>
+      <Nav />
       <Head>
         <title>AFP</title>
         <meta name="Anchor Flank & Pinch" content="Leaders in wildland firefighting training" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero className="w-full"></Hero>
-    <div  className={true ? ' bg-white ' : ' bg-gray-800 rounded-xl'}>
-      <div className="max-w-2xl text-center mx-auto py-24 px-4 grid items-center grid-cols-1 gap-y-16 gap-x-8 sm:px-6 sm:py-10 sm:my-14 lg:max-w-7xl lg:px-8 ">
-        <p className="mt-4 text-4xl font-extrabold text-gray-900 tracking-tight">Watch our recent training video example of the FS3D environment.</p>
-
-        {
-           (<div className="aspect-w-16 aspect-h-12">
-              <iframe 
-                src="https://www.youtube.com/embed/c_k4oyou5A8"
+      <div className={true ? ' bg-white ' : ' bg-gray-800 rounded-xl'}>
+        <div className="max-w-2xl text-center mx-auto py-24 px-4 grid items-center grid-cols-1 gap-y-16 gap-x-8 sm:px-6 sm:py-10 sm:my-14 lg:max-w-7xl lg:px-8 ">
+          <p className="mt-4 text-4xl font-extrabold text-gray-900 tracking-tight">Watch our recent training video example of the FS3D environment.</p>
+          {
+            (<div className="aspect-w-16 aspect-h-12">
+              <iframe
+                src="https://www.youtube.com/embed/6m2ZEWqd3pg"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen>
               </iframe>
-          </div>)
-        }
+            </div>)
+          }
+        </div>
       </div>
-    </div>
-        <Divider></Divider> 
+      <Divider></Divider>
 
       <main id="what_we_do" className={styles.main}>
         {/* <p className="my-24 text-5xl font-extrabold text-gray-900 tracking-tight">What We Do</p>
@@ -56,13 +55,13 @@ export default function Home() {
           // description='We've obsessed over every detail of this handcrafted journal to bring you the best materials for daily use.'
           bullets={[
             {
-              title: 'Live simulation fire exercises', 
+              title: 'Live simulation fire exercises',
               // description: 'The leather cover and machined steel disc binding stand up to daily use for years to come.' 
-                 description: 'Apply lessons learned in the classroom on live fire simulation exercises. ' 
+              description: 'Apply lessons learned in the classroom on live fire simulation exercises. '
             },
             {
               title: 'Integration with current wildland firefighters',
-              description: 'We maintain active relationships with active wildland firefighters who are available and ready to train.' 
+              description: 'We maintain active relationships with active wildland firefighters who are available and ready to train.'
             },
             {
               title: 'Performance review and evaluation',
@@ -110,8 +109,8 @@ export default function Home() {
             // {title: 'Initial attack & size up', description: '' },
           ]}
         ></Offering>
-        <Divider></Divider> 
-        <FS3D_Offering 
+        <Divider></Divider>
+        <FS3D_Offering
           component_id='fs3d'
           video={null}
           bgLight={true}
@@ -137,10 +136,10 @@ export default function Home() {
             }
           ]}
           bullets={[
-            {title: 'Real-time multi-user interaction', description: 'Run incident simulations with live role players including aerial supervision, airtanker/helicopter pilots, ground crews, etc.' },
-            {title: 'Over 20 flight platforms and configurations', description: 'Train using aircraft that include accurate, functioning cockpits, realistic flight dynamics even during water/retardant release, and true-to-life paint jobs.' },
-            {title: 'Fully immersive, realistic first-person simulations', description: 'Virtual Reality brings 3D realism with every glance, wing check, sun glare, and smoke plume penetration.' },
-            {title: 'Accurate fire growth and suppression with dynamic weather', description: 'Industry-standard fire growth modeling with the most accurate suppression effects available. Facilitators can adjust weather parameters at any time to change fire characteristics.' },
+            { title: 'Real-time multi-user interaction', description: 'Run incident simulations with live role players including aerial supervision, airtanker/helicopter pilots, ground crews, etc.' },
+            { title: 'Over 20 flight platforms and configurations', description: 'Train using aircraft that include accurate, functioning cockpits, realistic flight dynamics even during water/retardant release, and true-to-life paint jobs.' },
+            { title: 'Fully immersive, realistic first-person simulations', description: 'Virtual Reality brings 3D realism with every glance, wing check, sun glare, and smoke plume penetration.' },
+            { title: 'Accurate fire growth and suppression with dynamic weather', description: 'Industry-standard fire growth modeling with the most accurate suppression effects available. Facilitators can adjust weather parameters at any time to change fire characteristics.' },
           ]}
         ></FS3D_Offering>
         <LogoCloud
@@ -170,44 +169,44 @@ export default function Home() {
               "src": "/images/orgs/AFRL.png",
               "alt": "AFRL",
             },
-        ]}
+          ]}
         ></LogoCloud>
         <OurTeam
           id="our_team"
           people={[{
-          name: 'Joel Lane',
-          role: 'Director, AFP',
-          email: 'zunibird13@gmail.com',
-          phone: '559 310 9430',
-          imageUrl: '/images/joel/joel.png',
-          bio: `
+            name: 'Joel Lane',
+            role: 'Director, AFP',
+            email: 'zunibird13@gmail.com',
+            phone: '559 310 9430',
+            imageUrl: '/images/joel/joel.png',
+            bio: `
           Joel has served over 40 years as a firefighter for the USFS. He worked on the ground for 20  years as a hotshot, squad boss, Captain and Superintendent. Joel spent the last 20 years of his career in the air as an Air Attack, Air Attack Trainer, and Forest Aviation Officer. He is currently working with OCFA's Quick Reaction Force where they are pioneering in the aerial fire fighting space. `,
-          twitterUrl: 'https://twitter.com/zunibirdjoel',
-          linkedinUrl: 'https://www.linkedin.com/in/joel-lane-21204656',
-        },
-     {
-          name: 'Ken Perry',
-          role: 'Director, AFP',
-          email: 'afsimconsult@gmail.com',
-          phone: '661 350 5225',
-          imageUrl: '/images/ken/ken.png',
-          bio: `
+            twitterUrl: 'https://twitter.com/zunibirdjoel',
+            linkedinUrl: 'https://www.linkedin.com/in/joel-lane-21204656',
+          },
+          {
+            name: 'Ken Perry',
+            role: 'Director, AFP',
+            email: 'afsimconsult@gmail.com',
+            phone: '661 350 5225',
+            imageUrl: '/images/ken/ken.png',
+            bio: `
 
           Ken has over 35 years of firefighting experience. He worked as a hotshot before transitioning to the air as a Smoke Jumper. After jumping for 8 years, Ken became a Division Supervisor, Incident III Commander, & FAA Senior Parachute Rigger/Test Jumper. Ken then served as an Air Tactical Group Supervisor. He currently serves as an aerial firefighting instructor across multiple organizations. 
           `
-        },
-        {
-          name: 'Gus Johnson',
-          role: 'Director, AFP',
-          email: 'pvjhnson@gmail.com',
-          phone: '559 708 3570',
-          imageUrl: '/images/gus/gus_1.png',
-          bio: `
+          },
+          {
+            name: 'Gus Johnson',
+            role: 'Director, AFP',
+            email: 'pvjhnson@gmail.com',
+            phone: '559 708 3570',
+            imageUrl: '/images/gus/gus_1.png',
+            bio: `
 
             Gus has served over 30 years as firefighter as a Battalion Chief, Chief Officer, Logistics Section Chief, & Air Operations Branch Director. He has fought fire as an Air Attack for over 20 years, and has served as an Air Tactis Group Supervisor. Gus continues to work with OFCA's Quick Reaction Force in addition to instructing aerial fire fighters in various organizations.
           `,
-        } 
-      ]}
+          }
+          ]}
 
         ></OurTeam>
       </main>
