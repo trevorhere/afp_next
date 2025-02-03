@@ -5,7 +5,6 @@ import Link from 'next/link'
 const navigation = [
   { name: 'Field Exercises', href: '#field_exercises', current: false },
   { name: 'Classroom Training', href: '#classroom_training', current: false },
-  { name: 'FS3D', href: '#fs3d', current: false },
   { name: 'Our Team', href: '#our_team', current: false },
 ]
 

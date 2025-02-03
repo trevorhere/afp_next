@@ -21,22 +21,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero className="w-full"></Hero>
-      <div className={true ? ' bg-white ' : ' bg-gray-800 rounded-xl'}>
-        <div className="max-w-2xl text-center mx-auto py-24 px-4 grid items-center grid-cols-1 gap-y-16 gap-x-8 sm:px-6 sm:py-10 sm:my-14 lg:max-w-7xl lg:px-8 ">
-          <p className="mt-4 text-4xl font-extrabold text-gray-900 tracking-tight">Watch our recent training video example of the FS3D environment.</p>
-          {
-            (<div className="aspect-w-16 aspect-h-12">
-              <iframe
-                src="https://www.youtube.com/embed/6m2ZEWqd3pg"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen>
-              </iframe>
-            </div>)
-          }
-        </div>
-      </div>
-      <Divider></Divider>
 
       <main id="what_we_do" className={styles.main}>
         {/* <p className="my-24 text-5xl font-extrabold text-gray-900 tracking-tight">What We Do</p>
@@ -109,8 +93,7 @@ export default function Home() {
             // {title: 'Initial attack & size up', description: '' },
           ]}
         ></Offering>
-        <Divider></Divider>
-        <FS3D_Offering
+        {/* <FS3D_Offering
           component_id='fs3d'
           video={null}
           bgLight={true}
@@ -141,7 +124,7 @@ export default function Home() {
             { title: 'Fully immersive, realistic first-person simulations', description: 'Virtual Reality brings 3D realism with every glance, wing check, sun glare, and smoke plume penetration.' },
             { title: 'Accurate fire growth and suppression with dynamic weather', description: 'Industry-standard fire growth modeling with the most accurate suppression effects available. Facilitators can adjust weather parameters at any time to change fire characteristics.' },
           ]}
-        ></FS3D_Offering>
+        ></FS3D_Offering> */}
         <LogoCloud
           logos={[
             {
