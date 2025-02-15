@@ -14,10 +14,13 @@ export default function LogoCloud({logos}){
           <div className="flex flex-wrap justify-between w-full ">
             {logos.map(logo => (
               <div key={logo.src} className="m-4 w-24 h-auto lg:w-auto lg:h-auto flex flex-grow  justify-center align-center items-center ">
-                <img
-                  className='h-20 lg:h-24'
+                <Image
+                  //className={logo.className}
+                  className="w-20 h-20 lg:w-24 lg:h-24"
                   src={logo.src}
                   alt={logo.alt} 
+                  width={logo.width}
+                  height={logo.height}
                 />
               </div>
             ))}
