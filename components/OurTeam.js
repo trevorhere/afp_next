@@ -9,7 +9,7 @@ export default function OurTeam({people}){
           <div className="space-y-5 sm:space-y-4">
             <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">Our Team</h2>
             <p className="text-xl text-gray-500">
-              Over a century of combined wildland firefight experience.
+              Over a century of combined wildland firefighting experience.
             </p>
           </div>
           <div className="lg:col-span-2">
