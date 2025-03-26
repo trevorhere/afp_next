@@ -7,7 +7,7 @@ export default function Hero(){
       <header>
       </header>
       <main className="flex items-center justify-center content-center">
-        <section className="flex w-full pb-64 h-screen items-center justify-center bg-[url('/images/Header_1.png')] bg-cover">
+        <section className="flex w-full pb-64 h-screen items-center justify-center bg-[url('/images/Header_1.webp')] bg-cover">
             <div className='self-center text-center justify-center items-center text-white'>
               <div className="flex items-center justify-center space-x-4">
                 <img
