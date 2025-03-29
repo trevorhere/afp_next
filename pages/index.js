@@ -93,38 +93,6 @@ export default function Home() {
             // {title: 'Initial attack & size up', description: '' },
           ]}
         ></Offering>
-        {/* <FS3D_Offering
-          component_id='fs3d'
-          video={null}
-          bgLight={true}
-          showButton={true}
-          title='FS3D Virtual Reality Simulations '
-          description='Immersive, realistic wildfire training using state of the art Virtual Reality hardware and software. '
-          images={[
-            {
-              src: '/images/gifs/fs3d_1gif.gif',
-              alt: 'pilot view'
-            },
-            {
-              src: '/images/gifs/fs3d_6gif.gif',
-              alt: 'pilot view'
-            },
-            {
-              src: '/images/gifs/fs3d_3gif.gif',
-              alt: 'pilot view'
-            },
-            {
-              src: '/images/gifs/fs3d_5gif.gif',
-              alt: 'pilot view'
-            }
-          ]}
-          bullets={[
-            { title: 'Real-time multi-user interaction', description: 'Run incident simulations with live role players including aerial supervision, airtanker/helicopter pilots, ground crews, etc.' },
-            { title: 'Over 20 flight platforms and configurations', description: 'Train using aircraft that include accurate, functioning cockpits, realistic flight dynamics even during water/retardant release, and true-to-life paint jobs.' },
-            { title: 'Fully immersive, realistic first-person simulations', description: 'Virtual Reality brings 3D realism with every glance, wing check, sun glare, and smoke plume penetration.' },
-            { title: 'Accurate fire growth and suppression with dynamic weather', description: 'Industry-standard fire growth modeling with the most accurate suppression effects available. Facilitators can adjust weather parameters at any time to change fire characteristics.' },
-          ]}
-        ></FS3D_Offering> */}
         <LogoCloud
           logos={[
             {
@@ -184,6 +152,13 @@ export default function Home() {
               "height": 100,
             },
             {
+              "src": "/images/orgs/cyga.png",
+              "alt": "CYGA",
+              "className": "h-20 lg:h-24",
+              "width": 300,
+              "height": 150,
+            },
+            {
               "src": "/images/orgs/quebec.png",
               "alt": "QUEBEC",
               "className": "h-20 lg:h-24",
@@ -194,6 +169,9 @@ export default function Home() {
         ></LogoCloud>
         <OurTeam
           id="our_team"
+          title='Meet Our Leadership'
+          subtitle='Over a century of combined wildland firefighting experience.'
+          type='leaders'
           people={[{
             name: 'Joel Lane',
             role: 'CEO, Co-Founder',
@@ -218,6 +196,55 @@ export default function Home() {
           }
           ]}
 
+        ></OurTeam>
+        <Divider></Divider>
+        <OurTeam
+          id="our_team"
+          title='Meet Our Instructors'
+          type='instructors'
+          subtitle='Our instructors bring real-world expertise and hands-on experience to provide you with the most effective wildland firefighting training.'
+          people={[{
+            name: 'Ira Peshkin',
+            role: 'Instructor',
+            imageUrl: '/images/ira_peshkin/ira_peshkin.JPEG',
+            bio: ``,
+          },
+          {
+            name: 'Ken Craw',
+            role: 'Instructor',
+            imageUrl: '/images/gray.png',
+            bio: ``
+          ,
+          },
+          {
+            name: 'Jarran Flinders ',
+            role: 'Instructor',
+            imageUrl: '/images/jarran_flinders/jarran_flinders.JPEG',
+            bio: ``
+          ,
+          },
+          {
+            name: 'Mark Winkelman',
+            role: 'Instructor',
+            imageUrl: '/images/gray.png',
+            bio: ``
+          ,
+          },
+          {
+            name: 'Mike Lynn',
+            role: 'Instructor',
+            imageUrl: '/images/mike_lynn/mike_lynn.JPEG',
+            bio: ``
+          ,
+          },
+          {
+            name: 'Mark Voelker',
+            role: 'Instructor',
+            imageUrl: '/images/gray.png',
+            bio: ``
+          ,
+          }
+          ]}
         ></OurTeam>
       </main>
       <footer>

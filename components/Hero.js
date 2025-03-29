@@ -13,7 +13,7 @@ export default function Hero(){
             <Image
               src="/images/Header_1.webp"
               alt="Header background"
-              fill
+              layout='fill'
               priority
               sizes="100vw"
               placeholder="blur"
