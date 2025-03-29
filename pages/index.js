@@ -226,7 +226,7 @@ export default function Home() {
           {
             name: 'Mark Winkelman',
             role: 'Instructor',
-            imageUrl: '/images/gray.png',
+            imageUrl: '/images/mark_winkelman/mark_winkelman.JPEG',
             bio: ``
           ,
           },
