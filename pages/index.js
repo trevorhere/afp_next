@@ -212,7 +212,7 @@ export default function Home() {
           {
             name: 'Ken Craw',
             role: 'Instructor',
-            imageUrl: '/images/gray.png',
+            imageUrl: '/images/craw/ken_craw.jpg',
             bio: ``
           ,
           },
