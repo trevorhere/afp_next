@@ -236,13 +236,6 @@ export default function Home() {
             imageUrl: '/images/mike_lynn/mike_lynn.JPEG',
             bio: ``
           ,
-          },
-          {
-            name: 'Mark Voelker',
-            role: 'Instructor',
-            imageUrl: '/images/gray.png',
-            bio: ``
-          ,
           }
           ]}
         ></OurTeam>
