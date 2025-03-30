@@ -191,7 +191,7 @@ export default function Home() {
             imageUrl: '/images/gus/gus_bio.jpg',
             bio: `
 
-            Gus has served over 45 years as firefighter as a Battalion Chief, Chief Officer, Logistics Section Chief, & Air Operations Branch Director. He has fought fire as an Air Attack for over 20 years, and has served as an Air Tactis Group Supervisor. Gus continues to work with OFCA's Quick Reaction Force in addition to instructing aerial fire fighters in various organizations.
+            Gus has served over 50 years as firefighter, Battalion Chief, Chief Officer, Logistics Section Chief, & Air Operations Branch Director. Gus has over 25 years of experience as an Air Tactical Group Supervisor. Gus is currently the lead program manager for the South Fire Integrated Real-Time Intelligence System (FIRIS).
           `,
           }
           ]}
@@ -207,34 +207,35 @@ export default function Home() {
             name: 'Ira Peshkin',
             role: 'Instructor',
             imageUrl: '/images/ira_peshkin/ira_peshkin.JPEG',
-            bio: ``,
+            bio: `Retired Deputy Chief, Kern County F.D., Ira has over 35 years of experience with both Federal and Local government agencies.`,
+
           },
           {
             name: 'Ken Craw',
             role: 'Instructor',
             imageUrl: '/images/craw/ken_craw.jpg',
-            bio: ``
+            bio: `Retired Division Chief, Cal-Fire, Ken jas over 40 years of experience and is currently active as a Helicopter Coordinator and Air Attack Group Supervisor.`
           ,
           },
           {
             name: 'Jarran Flinders ',
             role: 'Instructor',
             imageUrl: '/images/jarran_flinders/jarran_flinders.JPEG',
-            bio: ``
+            bio: `Retired Deputy Chief U.S. Forest Service, Jarran has over 40 of years experience and is currently active and qualified as Helicopter Coordinator and Air Attach Group Supervisor.`
           ,
           },
           {
             name: 'Mark Winkelman',
             role: 'Instructor',
             imageUrl: '/images/mark_winkelman/mark_winkelman.JPEG',
-            bio: ``
+            bio: `Retired Division Chief, Reno City F.D., Mark has over 40 years of experience and is currently active and qualified as Helicopter Coordinator and Air Tactical Group Supervisor.`
           ,
           },
           {
             name: 'Mike Lynn',
             role: 'Instructor',
             imageUrl: '/images/mike_lynn/mike_lynn.JPEG',
-            bio: ``
+            bio: `Retired Lead Plane Pilot, Bureau of Land Management, Retired Director of Safety, Aero-Flite, Mike has over 50 years of experience. `
           ,
           }
           ]}
