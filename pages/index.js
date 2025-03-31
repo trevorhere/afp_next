@@ -214,7 +214,7 @@ export default function Home() {
             name: 'Ken Craw',
             role: 'Instructor',
             imageUrl: '/images/craw/ken_craw.jpg',
-            bio: `Retired Division Chief, Cal-Fire, Ken jas over 40 years of experience and is currently active as a Helicopter Coordinator and Air Attack Group Supervisor.`
+            bio: `Retired Division Chief, Cal-Fire, Ken has over 40 years of experience and is currently active as a Helicopter Coordinator and Air Attack Group Supervisor.`
           ,
           },
           {
