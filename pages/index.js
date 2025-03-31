@@ -221,7 +221,7 @@ export default function Home() {
             name: 'Jarran Flinders ',
             role: 'Instructor',
             imageUrl: '/images/jarran_flinders/jarran_flinders.JPEG',
-            bio: `Retired Deputy Chief U.S. Forest Service, Jarran has over 40 of years experience and is currently active and qualified as Helicopter Coordinator and Air Attach Group Supervisor.`
+            bio: `Retired Deputy Chief U.S. Forest Service, Jarran has over 40 of years experience and is currently active and qualified as Helicopter Coordinator and Air Attack Group Supervisor.`
           ,
           },
           {
