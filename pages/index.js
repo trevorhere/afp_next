@@ -19,6 +19,7 @@ export default function Home() {
         <title>AFP</title>
         <meta name="Anchor Flank & Pinch" content="Leaders in wildland firefighting training" />
         <link rel="icon" href="/favicon.ico" />
+        <script defer src="https://cloud.umami.is/script.js" data-website-id="e512b113-b9b5-4d44-b486-b2aa0b562822"></script>
       </Head>
       <Hero className="w-full"></Hero>
 
